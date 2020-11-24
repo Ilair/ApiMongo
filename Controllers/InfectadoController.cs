@@ -49,6 +49,6 @@ namespace Api.Controllers
             _infectadosCollection.DeleteOne(Builders<Infectado>.Filter.Where(i => i.DataNascimento == dataNasc));
             
             return Ok("Deletado com sucesso");
-        }
+        } 
     }
 }
